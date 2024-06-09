@@ -1,0 +1,19 @@
+{
+    "Name": "New Gems and Ores",
+    "Author": "Skadi",
+    "Version": "1.0.0",
+    "Description": "Adds new gems and ores.",
+    "UniqueID": "Skadi.NewGemsAndOres",
+    "MinimumApiVersion": "3.14.0",
+    "UpdateKeys": [],
+    "Dependencies": [
+      {
+        "UniqueID": "mistyspring.ItemExtensions",
+        "IsRequired": true
+      }
+    ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+  }
+  

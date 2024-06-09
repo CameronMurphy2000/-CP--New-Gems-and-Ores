@@ -1,0 +1,157 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_SapphireOre": {
+                    "SpriteIndex": 1, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 6,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Sapphire",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone blue",
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/-999",
+                            "SpawnFrequency": 0.8,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Sapphire": {
+                    "Name": "Sapphire",
+                    "Price": 250,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Sapphire",
+                    "Description": "A gem of deep blue colouring.",
+                    "SpriteIndex": 0,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_blue"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_PinkDiamondOre": {
+                    "SpriteIndex": 3, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 8,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)PinkDiamond",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 1, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone pink",
+                    "MineSpawns": [
+                        {
+                            "Floors": "121/-999",
+                            "SpawnFrequency": 0.8,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "PinkDiamond": {
+                    "Name": "Pink Diamond",
+                    "Price": 1250,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Pink Diamond",
+                    "Description": "A rare sparkling pink gem.",
+                    "SpriteIndex": 2,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_RedBerylOre": {
+                    "SpriteIndex": 5, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 6,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)RedBeryl",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone red",
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/-999",
+                            "SpawnFrequency": 0.8,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RedBeryl": {
+                    "Name": "Red Beryl",
+                    "Price": 800,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Red Beryl",
+                    "Description": "It is 1000 times rarer than gold.",
+                    "SpriteIndex": 4,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_red"
+                    ]
+                }
+            }
+        }
+    ]
+}
