@@ -172,8 +172,8 @@
                     "Debris": "stone blue",
                     "MineSpawns": [
                         {
-                            "Floors": "1/10",                            
-                            "SpawnFrequency": 0.005,
+                            "Floors": "1/9",                            
+                            "SpawnFrequency": 0.8,
                             "Type": "Volcano"
                         }
                     ]
@@ -200,6 +200,57 @@
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
                         "color_blue"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Serendibite": {
+                    "SpriteIndex": 9, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 10,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Serendibite",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 2, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone black",
+                    "MineSpawns": [
+                        {
+                            "Floors": "77377",                            
+                            "SpawnFrequency": 0.8,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Serendibite": {
+                    "Name": "Serendibite",
+                    "Price": 3500,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Serendibite",
+                    "Description": "An extremely rare silicate mineral.",
+                    "SpriteIndex": 8,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_black"
                     ]
                 }
             }
