@@ -20,7 +20,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "40/-999",
-                            "SpawnFrequency": 0.8,
+                            "SpawnFrequency": 0.5,
                             "Type": "All"
                         }
                     ]
@@ -71,7 +71,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "121/-999",
-                            "SpawnFrequency": 0.8,
+                            "SpawnFrequency": 0.5,
                             "Type": "All"
                         }
                     ]
@@ -122,7 +122,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "80/-999",
-                            "SpawnFrequency": 0.8,
+                            "SpawnFrequency": 0.5,
                             "Type": "All"
                         }
                     ]
@@ -149,6 +149,57 @@
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
                         "color_red"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Hauyne": {
+                    "SpriteIndex": 7, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 20,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Hauyne",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 3, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone blue",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/10",                            
+                            "SpawnFrequency": 0.005,
+                            "Type": "Volcano"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Hauyne": {
+                    "Name": "Hauyne",
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Hauyne",
+                    "Description": "A rare blue volcanic mineral.",
+                    "SpriteIndex": 6,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_blue"
                     ]
                 }
             }
