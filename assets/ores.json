@@ -220,7 +220,7 @@
                     "MinToolLevel": 2, 
                     "MinDrops": 1,
                     "MaxDrops": 1,                    
-                    "Debris": "stone black",
+                    "Debris": "stone gray",
                     "MineSpawns": [
                         {
                             "Floors": "77377",                            
@@ -250,7 +250,7 @@
                     "SpriteIndex": 8,
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
-                        "color_black"
+                        "color_gray"
                     ]
                 }
             }
