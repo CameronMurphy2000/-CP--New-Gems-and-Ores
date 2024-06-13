@@ -254,6 +254,57 @@
                     ]
                 }
             }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Sulfur": {
+                    "SpriteIndex": 11, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 2,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Sulfur",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1,
+                    "MaxDrops": 2,                    
+                    "Debris": "stone yellow",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 24, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119",                            
+                            "SpawnFrequency": 0.02,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Sulfur": {
+                    "Name": "Sulfur",
+                    "Price": 100,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Sulfur",
+                    "Description": "This common mineral has recorded knowledge dating back to the ancient era.",
+                    "SpriteIndex": 10,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_yellow"
+                    ]
+                }
+            }
         }
     ]
 }
