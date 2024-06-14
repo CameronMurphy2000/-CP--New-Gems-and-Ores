@@ -14,7 +14,6 @@ gems to add
 - Cahnite
 - Dundasite
 - Dzhalindite
-- Euclase
 - Liddicoatite
 - Phosphophyllite
 - Tanzanite
@@ -24,7 +23,6 @@ gems to add
 unique floor types
 
 - 0-10
-- 11-20
 - 21-30
 - 31-40
 - 41-50
