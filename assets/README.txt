@@ -2,7 +2,7 @@ To Do List
 
 gems to add
 
-- Magnetite for even floors
+- Magnetite
 - Aragonite
 - Biotite
 - Borax
@@ -18,7 +18,6 @@ gems to add
 - Dzhalindite
 - Euclase
 - Liddicoatite
-- Onyx
 - Phosphophyllite
 - Tanzanite
 - Vanadinite
@@ -26,7 +25,6 @@ gems to add
 
 unique floor types
 
-- even numbers only
 - 0-10
 - 11-20
 - 21-30
