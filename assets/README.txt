@@ -2,7 +2,6 @@ To Do List
 
 gems to add
 
-- Magnetite
 - Aragonite
 - Biotite
 - Borax
@@ -13,7 +12,6 @@ gems to add
 - Citrine
 - Zircon
 - Cahnite
-- Cinnabar
 - Dundasite
 - Dzhalindite
 - Euclase
@@ -33,11 +31,9 @@ unique floor types
 - 51-60
 - 61-70
 - 71-80
-- 81-90
 - 91-100
 - 101-110
 - 111-120
-- 20+
 - 30+
 - 50+
 - 60+
