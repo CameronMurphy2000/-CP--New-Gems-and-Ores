@@ -5,7 +5,6 @@ gems to add
 - Aragonite
 - Biotite
 - Borax
-- Garnet
 - Alexandrite
 - Peridot
 - Tourmaline
@@ -22,7 +21,6 @@ gems to add
 
 unique floor types
 
-- 0-10
 - 21-30
 - 31-40
 - 41-50
