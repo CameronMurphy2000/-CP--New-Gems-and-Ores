@@ -713,6 +713,57 @@
                     ]
                 }
             }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Peridot": {
+                    "SpriteIndex": 29, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 6,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Peridot",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 2, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone green",
+                    "MineSpawns": [
+                        {
+                            "Floors": "110/-999",                            
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Peridot": {
+                    "Name": "Peridot",
+                    "Price": 1500,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Peridot",
+                    "Description": "One of few gemstones to occur in only one color.",
+                    "SpriteIndex": 28,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_green"
+                    ]
+                }
+            }
         }
     ]
 }
