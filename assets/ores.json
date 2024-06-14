@@ -356,6 +356,57 @@
                     ]
                 }
             }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Magnetite": {
+                    "SpriteIndex": 15, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 3,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Magnetite",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone black",
+                    "MineSpawns": [
+                        {
+                            "Floors": "20/-999",                            
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Magnetite": {
+                    "Name": "Magnetite",
+                    "Price": 275,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Magnetite",
+                    "Description": "It has strong natural magnetic properties.",
+                    "SpriteIndex": 14,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_black"
+                    ]
+                }
+            }
         }
     ]
 }
