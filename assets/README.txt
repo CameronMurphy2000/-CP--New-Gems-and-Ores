@@ -2,7 +2,6 @@ To Do List
 
 gems to add
 
-- Aragonite
 - Biotite
 - Borax
 - Alexandrite
@@ -24,7 +23,6 @@ unique floor types
 - 41-50
 - 51-60
 - 61-70
-- 71-80
 - 91-100
 - 101-110
 - 111-120

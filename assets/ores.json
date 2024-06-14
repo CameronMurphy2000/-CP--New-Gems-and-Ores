@@ -611,6 +611,57 @@
                     ]
                 }
             }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Aragonite": {
+                    "SpriteIndex": 25, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 6,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Aragonite",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone orange",
+                    "MineSpawns": [
+                        {
+                            "Floors": "71/80",                            
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Aragonite": {
+                    "Name": "Aragonite",
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Aragonite",
+                    "Description": "It can form naturally in mollusk shells and coral.",
+                    "SpriteIndex": 24,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_orange"
+                    ]
+                }
+            }
         }
     ]
 }
