@@ -8,7 +8,6 @@ gems to add
 - Peridot
 - Tourmaline
 - Zircon
-- Cahnite
 - Dundasite
 - Dzhalindite
 - Liddicoatite
@@ -19,7 +18,6 @@ gems to add
 
 unique floor types
 
-- 31-40
 - 41-50
 - 51-60
 - 61-70
