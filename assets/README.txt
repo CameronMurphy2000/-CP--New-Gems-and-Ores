@@ -6,7 +6,6 @@ gems to add
 - Borax
 - Alexandrite
 - Tourmaline
-- Zircon
 - Dundasite
 - Dzhalindite
 - Liddicoatite
@@ -20,7 +19,6 @@ unique floor types
 - 41-50
 - 51-60
 - 61-70
-- 91-100
 - 101-110
 - 111-120
 - 30+

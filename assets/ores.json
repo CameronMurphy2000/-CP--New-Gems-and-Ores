@@ -727,7 +727,7 @@
                     "BreakingSound": "stoneCrack",
                     "ItemDropped": "(O)Peridot",
                     "Tool": "Pickaxe",
-                    "MinToolLevel": 2, 
+                    "MinToolLevel": 1, 
                     "MinDrops": 1,
                     "MaxDrops": 1,                    
                     "Debris": "stone green",
@@ -761,6 +761,57 @@
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
                         "color_green"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Zircon": {
+                    "SpriteIndex": 31, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 3,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Zircon",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone red",
+                    "MineSpawns": [
+                        {
+                            "Floors": "91/100",                            
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Zircon": {
+                    "Name": "Zircon",
+                    "Price": 1500,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Zircon",
+                    "Description": "It can change color over time due to internal radiation damage.",
+                    "SpriteIndex": 30,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_red"
                     ]
                 }
             }
