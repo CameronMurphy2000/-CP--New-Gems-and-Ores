@@ -799,7 +799,7 @@
             "Entries": {
                 "Zircon": {
                     "Name": "Zircon",
-                    "Price": 1500,
+                    "Price": 400,
                     "IsDrink": false,
                     "Edibility": -300,
                     "Type": "Minerals",
@@ -812,6 +812,57 @@
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
                         "color_red"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Biotite": {
+                    "SpriteIndex": 33, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 3,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Biotite",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone black",
+                    "MineSpawns": [
+                        {
+                            "Floors": "30/-999",                            
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Biotite": {
+                    "Name": "Biotite",
+                    "Price": 550,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Biotite",
+                    "Description": ".",
+                    "SpriteIndex": 32,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_black"
                     ]
                 }
             }
