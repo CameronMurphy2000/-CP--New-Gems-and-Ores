@@ -25,3 +25,16 @@ unique floor types
 - 70+
 - 90+
 - 100+
+
+
+all gems and locations 
+
+- Sapphire | 40+
+- Pink Diamond | Skull Cavern and Quarry Mine
+- Red Beryl | 80+
+- Hauyne | 1-9 in Standard Mine and Volcano
+- Serendibite | Quarry Mine
+- Sulfur | Odd floors in Standard Mine
+- Onyx | Even floors in Standard Mine
+- Magnetite | 20+
+- Cinnabar | 81-90
