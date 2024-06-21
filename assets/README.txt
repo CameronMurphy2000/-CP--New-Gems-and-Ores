@@ -38,3 +38,11 @@ all gems and locations
 - Onyx | Even floors in Standard Mine
 - Magnetite | 20+
 - Cinnabar | 81-90
+- Euclase | 11-20
+- Garnet | 1-10
+- Citrine | 21-30
+- Aragonite | 71-80
+- Cahnite | 31-40
+- Peridot | 110+
+- Zircon | 91-100
+- Biotite | 30+
