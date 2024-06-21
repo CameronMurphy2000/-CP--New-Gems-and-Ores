@@ -668,7 +668,7 @@
             "Action": "EditData",
             "Target": "Mods/mistyspring.ItemExtensions/Resources",
             "Entries": {
-                "{{ModId}}_Node_Cahnnite": {
+                "{{ModId}}_Node_Cahnite": {
                     "SpriteIndex": 27, 
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "Health": 6,
