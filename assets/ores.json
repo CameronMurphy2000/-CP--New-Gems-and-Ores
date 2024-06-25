@@ -968,6 +968,57 @@
                     ]
                 }
             }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Tourmaline": {
+                    "SpriteIndex": 39, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 3,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Tourmaline",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 1, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone yellow",
+                    "MineSpawns": [
+                        {
+                            "Floors": "50/-999",                            
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Tourmaline": {
+                    "Name": "Tourmaline",
+                    "Price": 400,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Tourmaline",
+                    "Description": "It can attract and repel hot ashes due to its pyroelectric properties.",
+                    "SpriteIndex": 38,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_yellow"
+                    ]
+                }
+            }
         }
     ]
 }
