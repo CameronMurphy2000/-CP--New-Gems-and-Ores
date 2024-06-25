@@ -44,3 +44,4 @@ all gems and locations
 - Peridot | 110+
 - Zircon | 91-100
 - Biotite | 30+
+- Borax | 41-50
