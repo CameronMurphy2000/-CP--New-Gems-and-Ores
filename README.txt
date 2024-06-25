@@ -19,7 +19,7 @@ unique floor types
 - 90+
 
 
-all gems and locations 
+all current gems and locations 
 
 - Sapphire | 40+
 - Pink Diamond | Skull Cavern and Quarry Mine
