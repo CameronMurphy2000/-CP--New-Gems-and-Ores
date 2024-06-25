@@ -858,11 +858,62 @@
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": false,
                     "DisplayName": "Biotite",
-                    "Description": ".",
+                    "Description": "Large chunks of it are called books.",
                     "SpriteIndex": 32,
                     "Texture": "Mods\\{{ModId}}\\Objects",
                     "ContextTags": [
                         "color_black"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Node_Borax": {
+                    "SpriteIndex": 35, 
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "Health": 4,
+                    "Sound": "hammer", 
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O)Borax",
+                    "Tool": "Pickaxe",
+                    "MinToolLevel": 0, 
+                    "MinDrops": 1,
+                    "MaxDrops": 1,                    
+                    "Debris": "stone white",
+                    "MineSpawns": [
+                        {
+                            "Floors": "41/50",                            
+                            "SpawnFrequency": 0.5,
+                            "Type": "All"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add ore's gem",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Borax": {
+                    "Name": "Borax",
+                    "Price": 275,
+                    "IsDrink": false,
+                    "Edibility": -300,
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": false,
+                    "DisplayName": "Borax",
+                    "Description": "It has a large number of commercial uses.",
+                    "SpriteIndex": 34,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "ContextTags": [
+                        "color_white"
                     ]
                 }
             }
