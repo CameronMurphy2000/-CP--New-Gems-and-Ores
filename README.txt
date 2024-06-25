@@ -2,7 +2,6 @@ To Do List
 
 gems to add
 
-- Borax
 - Alexandrite
 - Tourmaline
 - Dundasite
@@ -15,7 +14,6 @@ gems to add
 
 unique floor types
 
-- 41-50
 - 51-60
 - 61-70
 - 101-110
