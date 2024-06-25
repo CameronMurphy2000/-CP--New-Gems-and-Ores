@@ -1,5 +1,3 @@
-To Do List
-
 gems to add
 
 - Dundasite
