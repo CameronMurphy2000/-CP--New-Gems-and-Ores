@@ -2,7 +2,6 @@ To Do List
 
 gems to add
 
-- Alexandrite
 - Tourmaline
 - Dundasite
 - Dzhalindite
@@ -22,7 +21,6 @@ unique floor types
 - 60+
 - 70+
 - 90+
-- 100+
 
 
 all gems and locations 
@@ -45,3 +43,4 @@ all gems and locations
 - Zircon | 91-100
 - Biotite | 30+
 - Borax | 41-50
+- Alexandrite | 100+
