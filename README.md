@@ -1,8 +1,8 @@
 To Do List
 ==========
 
-To Add
-------
+Gems to Add
+-----------
 
 > - Dundasite
 > - Dzhalindite
