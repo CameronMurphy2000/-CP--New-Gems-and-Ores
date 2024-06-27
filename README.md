@@ -1,8 +1,6 @@
 To Do List
 ==========
 
-***
-
 To Add
 ------
 
@@ -14,8 +12,6 @@ To Add
 > - Vanadinite
 > - Zaherite
 
-***
-
 Locations to Add
 ----------------
 
@@ -26,8 +22,6 @@ Locations to Add
 > - 60+
 > - 70+
 > - 90+
-
-***
 
 | Name | Location | Price |
 | ---- | -------- | ----- |
