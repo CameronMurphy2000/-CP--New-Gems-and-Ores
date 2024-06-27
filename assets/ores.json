@@ -442,7 +442,7 @@
             "Entries": {
                 "Cinnabar": {
                     "Name": "Cinnabar",
-                    "Price": 275,
+                    "Price": 675,
                     "IsDrink": false,
                     "Edibility": -300,
                     "Type": "Minerals",
