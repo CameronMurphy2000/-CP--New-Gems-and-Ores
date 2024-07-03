@@ -937,7 +937,7 @@
                     "Debris": "stone purple",
                     "MineSpawns": [
                         {
-                            "Floors": "110/-999",                            
+                            "Floors": "100/-999",                            
                             "SpawnFrequency": 0.5,
                             "Type": "All"
                         }
