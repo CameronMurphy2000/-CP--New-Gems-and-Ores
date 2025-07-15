@@ -4,7 +4,6 @@ Info
 Gems to Add
 -----------
 
-> - Dundasite
 > - Dzhalindite
 > - Liddicoatite
 > - Phosphophyllite
@@ -19,7 +18,6 @@ Locations to Add
 > - 61-70
 > - 101-110
 > - 111-120
-> - 60+
 > - 70+
 > - 90+
 
@@ -45,3 +43,4 @@ Locations to Add
 | Borax | 41-50 | 275 |
 | Alexandrite | 100+ | 850 |
 | Tourmaline | 50+ | 400 |
+| Dundasite | 60+ | 525 |
